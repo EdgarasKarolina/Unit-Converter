@@ -1,0 +1,68 @@
+
+#rightSideButtons {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+}
+
+#leftSideButtons {
+    padding: 10px;
+}
+
+#innerDiv {
+    padding-top: 50px;
+}
+
+body {
+    background-color: #E9E9E9; 
+}
+
+.row {
+    padding-top: 30px;
+}
+
+/* overriding bootstrap styling */
+.btn-primary {
+    background-color: #B5A984;
+    font-size: 150%;
+    border-color: white;  
+}
+
+.btn-success {
+    background-color: #8e7a88;
+    border-color: white;
+}
+
+select {
+    height:32px;
+    border:1px solid #000;
+    width:260px;
+    text-indent: 8px;
+}
+
+#center_div {
+    vertical-align: middle;
+}
+
+#title_text {
+    font-style: oblique;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    height:32px;
+    border:1px solid #000;
+    width:260px;
+    text-indent: 8px;
+}
+
+.btn-primary:hover {
+    color: yellow
+}
+
+
+
+
+
+
