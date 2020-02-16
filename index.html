@@ -1,55 +1,70 @@
 <!doctype html>
 <html>
-    <head>   
-        <link rel="stylesheet" type="text/css" href="Style/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="Style/css/custom.css">
-        <script type="text/javascript" src="script.js"> </script>
-    </head>
 
-    <body onload="whenLoaded()" src="script.js"> 
-       
+<head>
+    <link rel="stylesheet" type="text/css" href="Style/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Style/css/custom.css">
+    <script type="module" src="values.js"> </script>
+    <script type="text/javascript" src="script.js"> </script>
+</head>
+
+<body onload="whenLoaded()" src="script.js">
+
     <header class="mainHeader" role="banner">
-            <img src="banner.png" alt="Banner Image" width="100%", height="200px"/>
+        <img src="Resources/banner.png" alt="Banner Image" width="100%" , height="200px" />
     </header>
-        
-<h1 id="title_text"> Unit Converter </h1>
 
-<div class="row">
+    <h1 id="title_text"> Unit Converter </h1>
 
-<div class="btn-group-vertical col-sm-3" id="leftSideButtons">
-    <button type="button" class="btn btn-primary" id="area_button"><span class="glyphicon glyphicon-tree-conifer"></span> Area</button>
-    <button type="button" class="btn btn-primary" id = "bits_bytes_button"><span class="glyphicon glyphicon-floppy-disk"></span> Bits/Bytes</button>
-    <button type="button" class="btn btn-primary" id="currency_button"><span class="glyphicon glyphicon-usd"></span> Currency</button>
-    <button type="button" class="btn btn-primary" id="energy_button"><span class="glyphicon glyphicon-flash"></span> Energy</button>
-</div>
+    <div class="row">
 
-<div class="btn-group-vertical col-sm-3" id="rightSideButtons">
-    <button type="button" class="btn btn-primary" id="length_button"><span class="glyphicon glyphicon-road"></span> Length</button>
-    <button type="button" class="btn btn-primary" id="time_button"><span class="glyphicon glyphicon-time"></span> Time</button>
-    <button type="button" class="btn btn-primary" id="volume_button"><span class="glyphicon glyphicon-fire"></span> Volume</button>
-    <button type="button" class="btn btn-primary" id="weight_button"><span class="glyphicon glyphicon-scale"></span> Weight</button>
-</div>
+        <div class="btn-group-vertical col-sm-3" id="leftSideButtons">
+            <button type="button" class="btn btn-primary" id="area_button"><span
+                    class="glyphicon glyphicon-tree-conifer"></span> Area</button>
+            <button type="button" class="btn btn-primary" id="bits_bytes_button"><span
+                    class="glyphicon glyphicon-floppy-disk"></span> Bits/Bytes</button>
+            <button type="button" class="btn btn-primary" id="currency_button"><span
+                    class="glyphicon glyphicon-usd"></span> Currency</button>
+            <button type="button" class="btn btn-primary" id="energy_button"><span
+                    class="glyphicon glyphicon-flash"></span> Energy</button>
+        </div>
 
-<div id="innerDiv" class="col-sm-6" style="display:table-cell; vertical-align:middle; text-align:center"> 
-    
+        <div class="btn-group-vertical col-sm-3" id="rightSideButtons">
+            <button type="button" class="btn btn-primary" id="length_button"><span
+                    class="glyphicon glyphicon-road"></span> Length</button>
+            <button type="button" class="btn btn-primary" id="time_button"><span
+                    class="glyphicon glyphicon-time"></span> Time</button>
+            <button type="button" class="btn btn-primary" id="volume_button"><span
+                    class="glyphicon glyphicon-fire"></span> Volume</button>
+            <button type="button" class="btn btn-primary" id="weight_button"><span
+                    class="glyphicon glyphicon-scale"></span> Weight</button>
+        </div>
 
-    <input type="number" id="first_input_field">
-    <select id="first_select_element">   
-    </select>
-     <br>
-    <input type="number" id="second_input_field">
-    <select id="second_select_element">
-    </select> <br>
-    <button id="clear_button" type="button" class="btn btn-success"><span class="glyphicon glyphicon-erase"></span> Clear</button>
-    <button id="replace_button" type="button" class="btn btn-success"><span class="glyphicon glyphicon-resize-vertical"></span> Replace</button> 
-       
-</div>
+        <div id="innerDiv" class="col-sm-6" style="display:table-cell; vertical-align:middle; text-align:center">
+            <input type="number" id="first_input_field">
+            <select id="first_select_element">
+            </select>
+            <br>
+            <input type="number" id="second_input_field">
+            <select id="second_select_element">
+            </select> <br>
+            <button id="clear_button" type="button" class="btn btn-success"><span
+                    class="glyphicon glyphicon-erase"></span> Clear</button>
+            <button id="replace_button" type="button" class="btn btn-success"><span
+                    class="glyphicon glyphicon-resize-vertical"></span> Replace</button>
 
-</div>
-    
-    </body>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2017 Edgaras Kazlauskas. Contact information: <a href="mailto:edgarasvilija@gmail.com">edgarasvilija@gmail.com</a></p>
+    </footer>
+
+</body>
 
 <script type="text/javascript" src="script.js"> </script>
+
 </html>
 
 

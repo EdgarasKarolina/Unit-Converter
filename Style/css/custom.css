@@ -1,3 +1,10 @@
+body {
+    background-color: #E9E9E9;
+}
+
+.row {
+    padding-top: 30px;
+}
 
 #rightSideButtons {
     position: absolute;
@@ -13,19 +20,11 @@
     padding-top: 50px;
 }
 
-body {
-    background-color: #E9E9E9; 
-}
-
-.row {
-    padding-top: 30px;
-}
-
 /* overriding bootstrap styling */
 .btn-primary {
     background-color: #B5A984;
     font-size: 150%;
-    border-color: white;  
+    border-color: white; 
 }
 
 .btn-success {
@@ -57,12 +56,11 @@ input {
     text-indent: 8px;
 }
 
-.btn-primary:hover {
-    color: yellow
-}
-
-
-
-
-
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
 
